@@ -1,0 +1,27 @@
+*{
+	box-sizing: border-box;
+}
+.vh-60
+{
+	height: 60vh;
+}
+.vh-40
+{
+height: 40vh;
+}
+.font-para p
+{
+	font-size: 21px;
+}
+
+@media only screen and (max-width: 576px)
+{
+	.vh-60
+	{
+		height: auto;
+	}
+	.font-para p
+	{
+		font-size: 17px;
+	}
+}
